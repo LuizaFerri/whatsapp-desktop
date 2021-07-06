@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D2DBDC;
+  margin: 0;
+  font-family:'Segoe UI',Helvetica Neue,Helvetica,Lucida Grande,Arial;
+}
+
+.app-janela {
+  display: flex;
+  height: 100vh;
+  background-color:#EDEDED;
+
+}
+ 
+.areaMensagens{
+  width: 35%;
+  max-width: 415px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #DDD;  
+  
+}
+
+header{
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  
+}
+
+img.avatar{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+
+.botoes{
+  display: flex;
+}
+
+.header-btn{
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+
+.Busca{
+  background-color: #F6F6F6;
+  border-bottom: 1px solid #EEE;
+  padding: 5px 15px;
+}
+
+.busca-imput{
+  background-color: #FFF;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.busca-imput input{
+  flex:1;
+  border:0;
+  outline: 0;
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+.listaChat{
+  flex:1;
+  background-color: white;
+  overflow-y: auto;
+}
+
+.itens-lista{
+  display: flex;
+  cursor:pointer;
+  align-items: center;
+  height: 70px;
+}
+
+.itens-lista:hover{
+  background-color: #F5F5F5;
+}
+
+.linhas-itens{
+  flex:1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 1px solid #EEE;
+  padding-right: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  
+}
+
+.linha-itens{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  
+}
+.nomeUsuario{
+  font-size: 17px;
+  color: black;
+}
+
+.horaChat{
+  font-size: 12px;
+  color: #999;
+}
+
+.ultimaMSG{
+  font-size:14px;
+  color:#999;
+  display: flex;
+  width: 100%;
+  margin-top:5px
+}
+
+.avatar-itens{
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-left: 15px;
+}
+
+.areaConteudo{
+  background-color: #F8F9FA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex:1;
+  border-bottom: 6px solid #4ADF83;
+}
+
+.imagemlogo{
+ width:250px;
+ height: auto;
+}
+
+.areaConteudo h1 {
+  font-size: 32px;
+  color: #525252;
+  font-weight:normal;
+  margin-top: 30px;
+}
+
+.areaConteudo h2{
+  font-size: 14px;
+  color: #777;
+  font-weight: normal;
+  margin-top: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
